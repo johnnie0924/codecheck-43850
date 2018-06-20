@@ -9,7 +9,7 @@ public class App {
 		for (int i = 0, l = args.length; i < l; i++) {
 			if (args[i].contains(":")) {
 				String[] ar = args[i].split(":");
-				checkMap.put(ar[0], ar[1]);
+				checkMap.put(Long.parseLong(ar[0]), ar[1]);
 			}else {
 				target = Long.parseLong(args[i]);
 			}
