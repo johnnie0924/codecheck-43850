@@ -21,6 +21,7 @@ public class App {
 				output = output + checkMap.get(key);
 			}
 		}
+		System.out.println(output);
 //		for(int i = 0, l = checkMap.size(); i < l; i++) {
 //			if(target % checkMap.get(key))
 //		}
